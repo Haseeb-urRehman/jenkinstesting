@@ -6,9 +6,9 @@ class Program
     {
         Console.WriteLine("Simple Calculator");
         Console.WriteLine("1. Add");
-        /*Console.WriteLine("2. Subtract");
-        Console.WriteLine("3. Multiply");
-        Console.WriteLine("4. Divide");*/
+        Console.WriteLine("2. Subtract");
+        //Console.WriteLine("3. Multiply");
+        //Console.WriteLine("4. Divide");
 
         var choice = Console.ReadLine();
 
@@ -25,30 +25,30 @@ class Program
                 result = num1 + num2;
                 Console.WriteLine($"Result: {result}");
                 break;
-            /*case "2":
+            case "2":
                 result = num1 - num2;
                 Console.WriteLine($"Result: {result}");
                 break;
-            case "3":
-                result = num1 * num2;
-                Console.WriteLine($"Result: {result}");
-                break;
-            case "4":
-                if (num2 != 0)
-                {
-                    result = num1 / num2;
-                    Console.WriteLine($"Result: {result}");
-                }
-                else
-                {
-                    Console.WriteLine("Error! Division by zero.");
-                }
-                break;*/
+            //case "3":
+            //    result = num1 * num2;
+            //    Console.WriteLine($"Result: {result}");
+            //    break;
+            //case "4":
+            //    if (num2 != 0)
+            //    {
+            //        result = num1 / num2;
+            //        Console.WriteLine($"Result: {result}");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Error! Division by zero.");
+            //    }
+            //    break;
             default:
                 Console.WriteLine("Invalid Input");
                 break;
         }
 
-        return 0;
+        return;
     }
 }
