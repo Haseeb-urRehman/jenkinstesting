@@ -48,5 +48,7 @@ class Program
                 Console.WriteLine("Invalid Input");
                 break;
         }
+
+        return 0;
     }
 }
