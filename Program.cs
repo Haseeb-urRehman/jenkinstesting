@@ -29,10 +29,10 @@ class Program
                 result = num1 - num2;
                 Console.WriteLine($"Result: {result}");
                 break;
-            //case "3":
-            //    result = num1 * num2;
-            //    Console.WriteLine($"Result: {result}");
-            //    break;
+            case "3":
+                result = num1 * num2;
+                Console.WriteLine($"Result: {result}");
+                break;
             //case "4":
             //    if (num2 != 0)
             //    {
