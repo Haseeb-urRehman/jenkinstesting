@@ -33,20 +33,20 @@ class Program
                 result = num1 * num2;
                 Console.WriteLine($"Result: {result}");
                 break;
-                //case "4":
-                //    if (num2 != 0)
-                //    {
-                //        result = num1 / num2;
-                //        Console.WriteLine($"Result: {result}");
-                //    }
-                //    else
-                //    {
-                //        Console.WriteLine("Error! Division by zero.");
-                //    }
-                //    break;
-                //default:
-                //    Console.WriteLine("Invalid Input");
-                //    break;
+            case "4":
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                    Console.WriteLine($"Result: {result}");
+                }
+                else
+                {
+                    Console.WriteLine("Error! Division by zero.");
+                }
+                break;
+            default:
+                Console.WriteLine("Invalid Input");
+                break;
         }
 
         return;
