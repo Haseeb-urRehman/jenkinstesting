@@ -7,8 +7,9 @@ class Program
         Console.WriteLine("Simple Calculator");
         Console.WriteLine("1. Add");
         Console.WriteLine("2. Subtract");
-        //Console.WriteLine("3. Multiply");
-        //Console.WriteLine("4. Divide");
+        Console.WriteLine("3. Multiply");
+        Console.WriteLine("4. Divide");
+        Console.WriteLine("5. Exponent");
 
         var choice = Console.ReadLine();
 
@@ -43,6 +44,10 @@ class Program
                 {
                     Console.WriteLine("Error! Division by zero.");
                 }
+                break;
+            case "5":
+                result = num1 * num2;
+                Console.WriteLine($"Result: {result}");
                 break;
             default:
                 Console.WriteLine("Invalid Input");
